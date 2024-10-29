@@ -266,3 +266,44 @@ body {
   opacity: 1;
   pointer-events: initial;
 }
+
+/*  media queries  */
+
+@media (max-width: 850px) {
+    .wrapper .card {
+      width: 35rem;
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
+
+    .card .buttons-group {
+      flex-direction: column;
+    }
+
+    .modal {
+      width: 75vw;
+    }
+
+    .modal-header .modal-title {
+        font-size: 2.5rem;
+    }
+  }
+
+@media (max-width: 400px) {
+    .wrapper .card {
+        width: 30rem;
+    }
+
+    .card img{
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .card .user-name{
+        font-size: 2.6rem;
+    }
+
+    .modal {
+        width: 90vw;
+    }
+}
